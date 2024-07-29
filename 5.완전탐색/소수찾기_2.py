@@ -15,7 +15,6 @@ def solution(numbers):
                 c_num = c_num[:len(c_num)-1]
                 visited[i] = 0
         return
-
     answer = 0
     n_list = list(numbers)
     n_list.sort(reverse=True)
